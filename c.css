@@ -24,7 +24,8 @@ body {
 
     .container table {
     border-collapse: collapse;
-    width: 100%;}
+    width: 100%;
+}
     td {
     font-size: 2em;
     padding: 0.7em;
