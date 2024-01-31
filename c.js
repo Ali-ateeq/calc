@@ -10,20 +10,6 @@ function calc (){
     use.value=tbcal;
 }
 
-function equal (){
-
-    if( tb.length==0|| tb==" "){
-        alert( " Need  a input ")
-        return;
-    }
-  try{
-
-  }
-  catch(error){
-    alert("invalid input ");
-
-  }
-}
 function reset(){
 use.value="";
 comp.value=" ";
