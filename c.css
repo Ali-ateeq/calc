@@ -26,6 +26,9 @@ body {
     border-collapse: collapse;
     width: 100%;
 }
+.container h1{
+    text-align: center;
+}
     td {
     font-size: 2em;
     padding: 0.7em;
