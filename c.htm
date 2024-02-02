@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculater </title>
-    <link rel="stylesheet" href="c.js" type="text/javascript" >
+    
     <link rel="stylesheet" href="c.css" type="text/css" >
+
+    <link rel="stylesheet" href="c.js" type="text/javascript" >
 </head>
 <body>
     <div class="container">
@@ -11,28 +15,28 @@
         <input type="text" id="comp" placeholder="0" disabled>
         <table>
         <tr>
-        <td onclick="calc('')">(</td>
-        <td onclick="calc()">)</td>
-        <td onclick="remove()">&lt;</td>
-        <td onclick="calc('+')" class="var j">+</td>
+        <td onclick="calc('(')">(</td>
+        <td onclick="calc(')')">)</td>
+        <td onclick="calc('%')" class="varj">%</td>
+        <td onclick="calc('+')" class="varj">+</td>
         </tr>
         <tr>
         <td onclick="calc('7')">7</td>
         <td onclick="calc('8')">8</td>
         <td onclick="calc('9')">9</td>
-        <td onclick="calc('-')" class="var j">-</td>
+        <td onclick="calc('-')" class="varj">-</td>
         </tr>
         <tr>
         <td onclick="calc('4')">4</td>
         <td onclick="calc('5')">5</td>
         <td onclick="calc('6')">6</td>
-        <td onclick="calc('*')" class="var j">*</td>
+        <td onclick="calc('*')" class="varj">*</td>
         </tr>
         <tr>
         <td onclick="calc('1')">1</td>
         <td onclick="calc('2')">2</td>
         <td onclick="calc('3')">3</td>
-        <td onclick="calc('/')" class="var j">/</td>
+        <td onclick="calc('/')" class="varj">/</td>
         </tr>
         <tr>
         <td onclick="reset()"><b>C</b></td>
@@ -41,7 +45,9 @@
         <td class="equal btn" onclick="equal()">=</td>
         </tr>
         </table>
-        <idiy 
+
+
+        <script src="c.js"></script>
     </div>
 </body>
 </html>
